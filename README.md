@@ -48,6 +48,3 @@ Upon running the program, follow the interactive menu to:
 
 The program ensures a smooth user experience with detailed prompts at every step.
 
-### Note
-The application uses a basic in-memory data structure for managing data. Future iterations may integrate persistent storage or a database for enhanced functionality.
-
