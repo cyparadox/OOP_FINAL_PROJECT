@@ -93,7 +93,7 @@ class Doctor {
     }
 }
 
-// Class representing an Appointment
+
 class Appointment {
     private Patient patient;
     private Doctor doctor;
@@ -154,7 +154,7 @@ public class HealthManagementSystem {
 
             System.out.print("Enter your choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -182,7 +182,7 @@ public class HealthManagementSystem {
         }
     }
 
-    // Initialize a list of doctors
+    
     private static void initializeDoctors() {
         doctors.add(new Doctor("Dr. Alice Smith", "Pediatrics"));
         doctors.add(new Doctor("Dr. Bob Johnson", "Cardiology"));
@@ -210,7 +210,7 @@ public class HealthManagementSystem {
         String name = scanner.nextLine();
         System.out.print("Age: ");
         int age = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         System.out.print("Ailment: ");
         String ailment = scanner.nextLine();
 
